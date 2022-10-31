@@ -6,4 +6,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>n:
+        return s[n]
+    else:
+      return ('false')
+
+
+print(main('121233e2',1)) 
