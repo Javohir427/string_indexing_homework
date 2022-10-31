@@ -26,7 +26,6 @@ def main(s):
         k='False'
         return k
     
-    return k
 
 print(main('*ssaf'))
         
