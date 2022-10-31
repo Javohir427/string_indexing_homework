@@ -12,4 +12,4 @@ def main(s,n):
       return ('false')
 
 
-print(main('121233e2',1)) 
+print(main('121233e2',67))    
