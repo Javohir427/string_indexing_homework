@@ -6,5 +6,21 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    k=0
+    if s[0]=='*':
+        k=0
+    if s[1]=='*':
+        k=1
+    if s[2]=='*':
+        k=2
+    if s[3]=='*':
+        k=3
+    if s[4]=='*':
+        k=4
+    else:
+        k='False'
+    
+    return k
+
+print(main('goods'))
         
