@@ -1,6 +1,3 @@
-import re
-
-
 def main(s):
     """
     A string of length five is given. Return the index of the "*" character, return False if not present.
@@ -9,35 +6,25 @@ def main(s):
     Returns:
         int: answer
     """
-    k=0
-    if s[0]=='*':
-        k=0
-        return k
+    x1=s[0]
+    x2=s[1]
+    x3=s[2]
+    x4=s[3]
+    x5=s[4]
+    if x1=='*':
+        return 1
+    if x2=='*':
+        return 2
+    if x3=='*':
+        return 3
+    if x4=='*':
+        return 4
+    if x5=='*':
+        return 5
     else:
-        return "False"
-    if s[1]=='*':
-        k=1
-        return k
-    else:
-        return "False"
-    if s[2]=='*':
-        k=2
-        return k
-    else:
-        return "False"
-    if s[3]=='*':
-        k=3
-        return k
-    else:
-        return "False"
-    if s[4]=='*':
-        k=4
-        return k
-    else:
-        return "False"
-    
-        return k
+        return 'False'
     
 
-print(main('*ssaf'))
+
+print(main('go*hs'))
         
