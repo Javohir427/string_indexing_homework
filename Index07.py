@@ -8,8 +8,9 @@ def main(s,n):
     """
     if len(s)>n:
         return s[n]
-    else:
-      return ('False')
+    else :
+        return False
+    
 
 
-print(main('121233e2',67))    
+print(main('good',3))    
